@@ -5,9 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Edu Care</title>
+
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <!-- fontawsome link -->
     <script src="https://kit.fontawesome.com/f4107de254.js" crossorigin="anonymous"></script>
 </head>
@@ -36,20 +38,20 @@
                             <a class="nav-link" href="#Courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#Deals">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Success</a>
+                            <a class="nav-link" href="#Register">Register</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#Success">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Register</a>
+                            <a class="nav-link" href="#About">About</a>
                         </li>
 
                     </ul>
-                    <button class="btn btn-outline-secondary" type="submit">Register</button>
+                    <button class="btn btn-outline-danger" type="submit">Register</button>
                 </div>
             </div>
         </nav>
@@ -73,7 +75,7 @@
                             <h1>Get Started With Edu<br>Care</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable <br>
                                 content of a page when looking at its layout.</p>
-                            <button class="btn btn-outline-primary" type="submit">Get Started</button>
+                            <button class="btn btn-danger" type="submit">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item col-lg-5">
@@ -83,6 +85,7 @@
                             <h1>Get Started With Edu<br>Care</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable <br>
                                 content of a page when looking at its layout.</p>
+                            <button class="btn btn-danger" type="submit">Get Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -92,6 +95,7 @@
                             <h1>Get Started With Edu<br>Care</h1>
                             <p>It is a long established fact that a reader will be distracted by the readable <br>
                                 content of a page when looking at its layout.</p>
+                            <button class="btn btn-danger" type="submit">Get Started</button>
                         </div>
                     </div>
                 </div>
@@ -119,6 +123,9 @@
             <p>It is a long established fact that a reader will be distracted by the readable<br>content of a page when
                 looking at its layout.</p>
         </section>
+
+        <!-- Courses Section -->
+
         <section>
             <div class="row mx-2 my-5 d-flex justify-content-evenly">
                 <div
@@ -197,14 +204,14 @@
                 </div>
             </div>
 
-            <div class="my-5 mx-3 d-flex justify-content-center">
+            <div id="Deals" class="my-5 mx-3 d-flex justify-content-center">
                 <div class="card mb-3" style="max-width: 1300px; background-color: #F4FAFD;">
                     <div class="row g-0 align-items-center">
                         <div class="col-md-4">
                             <img src="images/working.png" class="img-fluid rounded-start" alt="...">
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body" style="background-color: #F4FAFD;">
+                            <div class="card-body">
                                 <h1 class="card-title">Explore The elearning Institute</h1>
                                 <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
                                     the majority have suffered alteration in some form, by injected humour, or
@@ -237,7 +244,178 @@
                 </div>
             </div>
         </section>
+
+        <!-- Register Section -->
+
+        <section class="container d-flex justify-content-center my-5">
+            <div class="row align-items-center rounded-1 w-100 p-5" style="background-color: rgb(255, 21, 72);">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center text-white">
+                    <h2 class="fw-semibold">Ready to join?</h2>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+
+                    <!-- Modal Button -->
+
+                    <button type="button" id="Register" class="btn text-primary bg-white" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Fill Up Now</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body text-start">
+                                    <h6>Name:
+                                        <input type="text" name="" placeholder="Enter your name" id="">
+                                    </h6>
+                                    <h6>Email:
+                                        <input type="email" name="" placeholder="Enter your email" id="">
+                                    </h6>
+                                    <h6>Password:
+                                        <input type="password" name="" placeholder="Enter your password" id="">
+                                    </h6>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-danger">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Section -->
+
+        <section class="container">
+            <div id="Success" class="mb-5">
+                <h2>Meet Our Successfull <br> Students</h2>
+                <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page
+                    when looking at its layout</p>
+            </div>
+
+            <div class="row">
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
+                    <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Awlad Hossain</h4>
+                        <p class="card-text">UIUX Designer</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
+                    <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Jannatul Islam</h4>
+                        <p class="card-text">Motion Design</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
+                    <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Imran Hossain</h4>
+                        <p class="card-text">Graphic Designer</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-6 col-sm-12 border-0">
+                    <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Nishi Akter</h4>
+                        <p class="card-text">Full-stack Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-outline-danger mt-5">View All</button>
+            </div>
+        </section>
+
+        <!-- Feedback section -->
+
+        <section>
+            <div class="text-center my-5">
+                <h1 class="">Some Students Feedback</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
+                    when looking at its layout.</p>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="img-fluid d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="text-warning">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
+                                    the majority have suffered alteration in some form, by injected humour, or
+                                    randomised words which don't look even slightly believable. If you are going to use
+                                    a passage of Lorem.</p>
+                                <div class="d-flex gap-3">
+                                    <div>
+                                        <img class="img-fluid" src="images/student/student-5.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h5 class="fw-bold">Awlad Hossain</h5>
+                                        <p>UI Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="img-fluid d-flex justify-content-between">
+                                    <img src="images/comma.png" alt="">
+                                    <div class="text-warning">
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa fa-star checked"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                </div>
+                                <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
+                                    the majority have suffered alteration in some form, by injected humour, or
+                                    randomised words which don't look even slightly believable. If you are going to use
+                                    a passage of Lorem.</p>
+                                    <div class="d-flex gap-3">
+                                        <div>
+                                            <img class="img-fluid" src="images/student/student-6.png" alt="">
+                                        </div>
+                                        <div>
+                                            <h5 class="fw-bold">Shanta Akter</h5>
+                                            <p>Graphic Designer</p>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
     <!-- main end -->
 
 
