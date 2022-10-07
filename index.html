@@ -200,7 +200,7 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-outline-primary mt-5">See more courses</button>
+                    <button class="btn btn-outline-danger mt-5">See more courses</button>
                 </div>
             </div>
 
@@ -247,8 +247,8 @@
 
         <!-- Register Section -->
 
-        <section class="container d-flex justify-content-center my-5">
-            <div class="row align-items-center rounded-1 w-100 p-5" style="background-color: rgb(255, 21, 72);">
+        <section id="Register" class="container d-flex justify-content-center my-5">
+            <div class="row align-items-center rounded-1 w-100 p-5" style="background-color: rgb(255, 55, 98);">
                 <div class="col-lg-6 col-md-12 col-sm-12 text-center text-white">
                     <h2 class="fw-semibold">Ready to join?</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page
@@ -258,7 +258,7 @@
 
                     <!-- Modal Button -->
 
-                    <button type="button" id="Register" class="btn text-primary bg-white" data-bs-toggle="modal"
+                    <button type="button" class="btn text-black bg-white" data-bs-toggle="modal"
                         data-bs-target="#exampleModal">
                         Register Now
                     </button>
@@ -286,8 +286,7 @@
                                 </div>
 
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger"
-                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-danger">Save changes</button>
                                 </div>
                             </div>
@@ -350,7 +349,7 @@
                     when looking at its layout.</p>
             </div>
 
-            <div class="container">
+            <div class="container mb-5">
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="card">
@@ -397,20 +396,98 @@
                                 <p class="card-text">There are many variations of passages of Lorem Ipsum available, but
                                     the majority have suffered alteration in some form, by injected humour, or
                                     randomised words which don't look even slightly believable. If you are going to use
-                                    a passage of Lorem.</p>
-                                    <div class="d-flex gap-3">
-                                        <div>
-                                            <img class="img-fluid" src="images/student/student-6.png" alt="">
-                                        </div>
-                                        <div>
-                                            <h5 class="fw-bold">Shanta Akter</h5>
-                                            <p>Graphic Designer</p>
-                                        </div>
+                                    a passage of Lorem.
+                                </p>
+                                <div class="d-flex gap-3">
+                                    <div>
+                                        <img class="img-fluid" src="images/student/student-6.png" alt="">
                                     </div>
+                                    <div>
+                                        <h5 class="fw-bold">Shanta Akter</h5>
+                                        <p>Graphic Designer</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- FQA Section -->
+
+        <section>
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 class="">Frequently Asked Questions</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable <br> content of a
+                        page when looking at its layout.</p>
+                </div>
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="fw-semibold accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                What is the diffrent between flex box and grid?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Grid and flexbox. The basic difference between CSS Grid Layout
+                                and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either
+                                a row or a column. Grid was designed for two-dimensional layout - rows, and columns at
+                                the same time.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="fw-semibold accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                What is the diffrent bootstrap and Tailwind?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Bootstrap is a component-based framework, which means it comes
+                                with prebuilt components and includes other utilities for layering displays, spacing,
+                                etc. Tailwind, on the other hand, CSS is a utility-first framework. Using Tailwind CSS
+                                is akin to writing regular CSS. Unlike Bootstrap, it has no prebuilt components.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="fw-semibold accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                what is a semantic tag?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an
+                                HTML page rather than just presentation. It makes HTML more comprehensible by better
+                                defining the different sections and layout of web pages.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="fw-semibold accordion-button collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                What is CSS box model?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">The CSS box model is essentially a box that wraps around every
+                                HTML element. It consists of: margins, borders, padding, and the actual content.</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
