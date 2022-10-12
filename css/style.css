@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* responsive */
+
+@media only screen and (max-width:688px) {
+    .courses {
+        flex-direction: column;
+    }
+
+    .course {
+        width: 100%;
+    }
+
+    .success {
+        text-align: center;
+    }
+
+}
